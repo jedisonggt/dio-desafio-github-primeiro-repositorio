@@ -1,0 +1,79 @@
+                                                                              GIT
+
+controle de versão, armazenamento em nuvem, trabalho em equipe, melhorar seu código, reconhecimento. 
+
+COMANDOS BASICO
+WINDOWS        LINUX
+
+-CD  naverdar entre as pasta       -CD
+-dir  listar                                       -ls
+-mkdir criar                                  -mkdir
+-del / rmdir  deletar                      -rm -rf
+
+para retroceder o procedimento é dado o comando cd ..
+
+o comando para limpar a tela no windwos é cls
+ /                              /                /   linux é o clear ou o CTRL+L
+
+a tecla TAB serve para completar o comando ex: cd W pressionando a tecla TAB ele auto completa o nome da pasta.
+
+OBS: o comando del exclui o arquivo dentro da pasta e o comando rmdir /s /q exclui a pasta ou diretorio por completo
+
+-sha1
+-objetos fundamentais
+-sistemas distribuido
+-segurança
+
+sha1 significa secure hash algorithm ( algoritmo de hash seguro) é um conjunto de funções hash criptográficas projetadas pela NSA (agencia de Segurança Nacional dos EUA)
+
+a saida da encrptação gera conjunto de caracteres identificador de 40 digitos.
+
+BLOBS
+TRESS
+COMMITS
+
+Agent pid 1175
+
+comando git init para inicializar
+                ls -a para ver arquivos oculto
+configuração inicial comandos
+git config  - - global user.email “pb2.jedson@gmail.com”
+
+git config - -global user.name Jedison9
+
+comando cat visualizar o conteudo da chave
+Agent pid 885
+gerar uma nova chave ssh e adiciona-la ao ssh-agente quando estiver com dificuldade de criar um novo
+
+ git config --global user.email
+git config --global user.name jedisonggt
+git status para verificar os status dos arquivos
+comando mv para mover arquivo para outro diretorio
+
+para alterar o email ou qualquer operação ja feita no git usar o seguinte comando
+
+git config - -global - - unset user.email 
+git config - -global - - unset user.name
+
+
+git add . para adicionar todas as alteração 
+gitt add -a também 
+git commit  -m “e coloca a descrição do que foi feito”
+git push origin main comando para encaminhar par ao gitHub
+ 
+ 
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
